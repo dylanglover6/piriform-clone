@@ -1,0 +1,119 @@
+body {
+  background-image: url("../images/tweed/tweed/tweed.png");
+  font-family: 'Press Start 2P';
+  font-size: 12px;
+}
+.h1, h1 {
+  font-size: 2rem;
+}
+a
+{
+  color: #6865B2;
+}
+a:hover
+{
+  color: #2F2C84;
+}
+
+a:active
+{
+  color: #9290CF;
+}
+/* tablet/mobile styles */
+nav {
+  font-family: 'Libre Barcode 128 Text', cursive;
+  font-size: 10vw;
+  position: sticky; 
+  text-align: right;
+  z-index: 2;
+ 
+}
+.navbar-nav {
+  flex-direction: row;
+}
+.navbar-nav li {
+  margin-left: auto;
+  margin-right: auto;
+}
+#carouselExampleFade {
+
+  z-index: 0;
+}
+.mobile-placeholder{
+  position: relative;
+  top: 1px;
+}
+.mobile-placeholder > img {
+  max-width: 100%;
+  height: auto;
+}
+
+#home-logo {
+  width: 50%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 30px;
+}
+
+.content
+{
+  background-color: #FFF57E;
+  width: 80%;
+  padding: 15px;
+  margin-top: 5vw;
+  border: solid #BDB12A;
+  border-radius: 20px;
+}
+.default{
+  display: none;
+}
+
+.audio{
+  margin-left: auto;
+  margin-right: auto;
+}
+/* full size default styles */
+@media (min-width: 992px) {
+  nav {
+    font-family: 'Libre Barcode 128 Text', cursive;
+    font-size: 130px;
+    position: sticky; 
+    z-index: 2;
+  }
+  .h1, h1 {
+    font-size: 2.5rem;
+  }
+  body{
+    font-size: 1rem;
+  }
+  .mobile{
+    display: none;
+  }
+  .default{
+    display: initial;
+  }
+  #carouselExampleFade {
+    position: absolute;
+    top: 0;
+    z-index: 0;
+  }
+  #home-logo {
+    width: 20%;
+    height: auto;
+  }
+  .mobile-placeholder{
+    display: none;
+  }
+}
+.nav-link{
+  color: white;
+  padding: 5px;
+}
+.nav-link:hover{
+  color: #FFF57E;
+}
+.nav-item:active{
+  color: #FFF57E
+}
+
