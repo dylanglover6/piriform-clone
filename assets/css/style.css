@@ -14,7 +14,13 @@ a:hover
 {
   color: #2F2C84;
 }
-
+div.footer
+{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 40%;
+}
 a:active
 {
   color: #9290CF;
