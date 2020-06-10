@@ -30,7 +30,8 @@ div.footer
   width: 40%;
   height: 2.5rem;
   z-index: 1;
-  color: #BDB12A
+  color: #BDB12A;
+  font-size: 9px;
 }
 a:active
 {
@@ -121,6 +122,9 @@ nav {
   }
   .mobile-placeholder{
     display: none;
+  }
+  div.footer{
+    font-size: inherit;
   }
 }
 .nav-link{
